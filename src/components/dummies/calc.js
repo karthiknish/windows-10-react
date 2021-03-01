@@ -9,7 +9,7 @@ import Window from "../windowWrapper/window";
 import Calculator from "awesome-react-calculator";
 const Calc = () => {
   return (
-    <Window appName="Calculator">
+    <Window appName="Calculator Widget">
       {/* <img src={imagePath} alt="calculator" draggable={false} /> */}
       <div style={{ width: "15rem", height: "24rem" }}>
         <Calculator />

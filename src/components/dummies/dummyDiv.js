@@ -3,7 +3,7 @@ import Window from "../windowWrapper/window";
 
 const DummyDiv = () => {
   return (
-    <Window appName="This is a fake application">
+    <Window appName="This is a fake application 1">
       <div
         style={{
           border: "solid",
