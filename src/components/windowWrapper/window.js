@@ -57,17 +57,17 @@ const Window = (props) => {
     orderOfApps,
   } = useContext(ApplicationContext);
 
-  const appName = props.children._owner.type.name;
+  // const appName = props.children._owner.type.name;
 
   return (
     <Draggable
       handle="strong"
-      position={positionOfApps[appName]}
+      // position={positionOfApps[appName]}
       onStop={(event, position) => saveAppPosition(position, props.children)}
       onStart={() => setAppOnTheTop(props.children)}
     >
       <Frame
-        zindex={orderOfApps[appName]}
+        // zindex={orderOfApps[appName]}
         onClick={() => setAppOnTheTop(props.children)}
       >
         <strong>
@@ -85,10 +85,10 @@ const Window = (props) => {
                 onClick={() => minimizeApp(props.children)}
               />
             </HandlerButtonsContainer>
-            <TitleBarText>{props.appName}</TitleBarText>
+            {/* <TitleBarText>{props.appName}</TitleBarText> */}
           </TitleBar>
         </strong>
-        {console.log(appName)}
+        {/* {console.log(appName)} */}
         {props.children}
       </Frame>
     </Draggable>
