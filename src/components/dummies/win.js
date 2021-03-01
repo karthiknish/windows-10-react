@@ -33,7 +33,7 @@ const Win = () => {
   }, [divRef]);
 
   return (
-    <Window appName="Winamp">
+    <Window appName="Win">
       <div
         style={{ width: "15rem", height: "24rem" }}
         // style={{ position: "fixed", left: 0, top: 0, right: 0, bottom: 0 }}

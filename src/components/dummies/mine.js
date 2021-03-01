@@ -11,7 +11,7 @@ const Mine = () => {
   const [win, setWin] = useState(false);
   const [lose, setLose] = useState(false);
   return (
-    <Window appName="Minesweeper">
+    <Window appName="Mine">
       {/* <img src={imagePath} alt="calculator" draggable={false} /> */}
       <div style={{ width: "25rem", height: "22rem" }}>
         {win ? (

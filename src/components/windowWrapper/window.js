@@ -88,6 +88,7 @@ const Window = (props) => {
             <TitleBarText>{props.appName}</TitleBarText>
           </TitleBar>
         </strong>
+        {console.log(appName)}
         {props.children}
       </Frame>
     </Draggable>
